@@ -61,6 +61,6 @@ public class GridViewAdapter extends BaseAdapter {
         else
             Toast.makeText(context, "URL da imagem está vazia!", Toast.LENGTH_LONG).show();
 
-        return null;
+        return view;
     }
 }
