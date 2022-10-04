@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityCadastro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastro do pet"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:letterSpacing="0.12"
+            android:textColor="#8BC34A"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Id:"
+            android:textColor="#3C3C3C"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/edtId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Nome:"
+            android:textColor="#3C3C3C"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Raça:"
+            android:textColor="#3C3C3C"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/edtRaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Imagem:"
+            android:textColor="#3C3C3C"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            android:id="@+id/edtImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            />
+
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:backgroundTint="#B0CD8E"
+            android:text="Consultar por nome"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnInserir"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Enviar"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#B0CD8E"/>
+
+        <Button
+            android:id="@+id/btnAlterar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Alterar"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#B0CD8E"/>
+
+        <Button
+            android:id="@+id/btnExcluir"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Excluir"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#B0CD8E"/>
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Limpar"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#B0CD8E"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

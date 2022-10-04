@@ -2,6 +2,7 @@ package br.unicamp.apiretrofit;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -47,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // chama a activity cadastro que ainda nao foi feita fml tmj
+                Intent intent = new Intent(MainActivity.this, ActivityCadastro.class);
+
+                startActivity(intent);
             }
         });
 
