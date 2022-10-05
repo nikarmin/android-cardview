@@ -24,7 +24,7 @@ public interface Service {
     @PUT("/api/dog/put/{id}")
     Call<Dog> alterarDog(@Path("id") String id, @Body Dog dog);          // alterar UMA UNIDADE DE CACHORRO
 
-    @DELETE("/api/dog/delete/{id}")
+    @GET("/api/dog/delete/{id}")
     Call<Dog> excluirDog(@Path("id") String id);            // deletar UMA UNIDADE DE CACHORRO
 
 }

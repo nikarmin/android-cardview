@@ -141,6 +141,50 @@
             android:textColor="@color/white"
             android:backgroundTint="#B0CD8E"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Retorno em JSON:"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:id="@+id/tvJson"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/darker_gray"
+                android:focusable="false"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Retorno em OBJ JAVA:"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:id="@+id/tvObj"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                />
+
         </LinearLayout>
 
     </ScrollView>
